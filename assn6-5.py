@@ -19,4 +19,6 @@ text = "X-DSPAM-Confidence:    0.8475"
 #
 # print float(revert_string(sliced_text))
 
+sliced_text = text[text.find(" "):]
+print float(sliced_text)
 
