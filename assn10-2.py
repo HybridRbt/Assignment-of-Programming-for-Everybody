@@ -35,9 +35,9 @@ for line in handle:
                         break
 
 hr_lst = []
-
 for key, value in hrcount.items():
     hr_lst.append((key, value))
 
 hr_lst.sort()
-print hr_lst
+for key, value in hr_lst:
+    print key, value
